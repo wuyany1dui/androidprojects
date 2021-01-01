@@ -1,0 +1,24 @@
+在下列选项中，设置ProgressBar的最大进度的方法是/A、 setMax()/B、 setProgress()/C、 setCurrentProgress ()/D、 setTotalProgress()/A
+onActivityResult()方法有三个参数，其中（）表示在返回数据时传入结果码/A、 requestCode/B、 resultCode/C、 data/D、 result/B
+在startActivityForResult方法表示请求码的参数是/A、 requestCode/B、 resultCode/C、 data/D、 intent/A
+Android中Intent传递类对象时，该类对象需实现（）或Parcelable接口/A、 Copyings接口/B、 Copying接口/C、 Serializables接口/D、 Serializable接口/D
+多个RadioButton要实现单选，需要包裹在哪一个控件里/A、 RatingBar/B、 RatingBars/C、 RadioGroup/D、 RadioGroups/C
+在下列选项中，用来设置Activity的启动模式的属性是/A、 android:launch/B、 android:launchMode/C、 android:launchMethod/D、 android:launchProperty/B
+（）启动模式与standard类似，不同的是，当启动的Activity已经位于栈顶时，则直接使用它不创建新的实例/A、 singleTask/B、 singleTop/C、 singleTask和 singleTop/D、 singleInstance/B
+Activity在（）状态时处于屏幕最前端，它是可见、有焦点的，可以与用户进行交互？/A、 启动状态/B、 运行状态/C、 暂停状态/D、 停止状态/B
+下列不是onActivityResult()方法参数的是/A、 requestCode/B、 resultCode/C、 data/D、 result/D
+没有明确指定组件名的Intent称为/A、 显示意图/B、 显式意图/C、 隐式意图/D、 隐示意图/C
+( )启动模式是指，每次启动该Activity时，系统会这个Activity的实例作为一个任务压入任务栈的栈顶，每次销毁一个Activity时，系统会从任务栈中把这个Activity实例对应的任务移除。/A、singleTask/B、singleTop/C、standard/D、singleInstance/C
+当Activity的启动模式指定为（），每次启动该Activity时，系统首先会检查栈中是否存在该活动的实例，如果发现已经存在则直接使用该实例，并将当前Activity之上的所有Activity出栈，如果没有发现则创建一个新的实例/A、 singleTask/B、 singleTop/C、 standard/D、 singleInstance/A
+Android采用（）的方式来管理Activity的实例/A、 任务栈/B、 任务堆/C、 队列/D、 任务列/A
+在下列选项中，不能使用Intent传递的数据类型是/A、 基本数据类型及其数组/B、 Map/C、 Parcelable/D、 Serializable/B
+在下列选项中，用来设置Activity的启动模式的属性是/A、 android:launch/B、 android:launchMode/C、 android:launchMethod/D、 android:launchProperty/B
+在下列选项中，关于onActivityResult方法中的参数描述错误的是/A、 requestCode，表示在启动Activity时传递的请求码/B、 resultCode，表示在返回数据时传入结果码/C、 data，表示携带返回数据的Intent/D、 data，表示启动Activity时传递的Intent/D
+下列能打开系统相机的方法是/A、 显示意图/B、 显式意图/C、 隐式意图/D、 隐示意图/C
+Activity销毁时执行执行方法是/A、 onStart()/B、 onResume()/C、 onPause()/D、 onDestroy()/D
+下列选项中不能通过Intent传递的是/A、字符串/B、2/C、 对象obj/D、实现Serializable接口的对象obj/C
+Activity在（）状态是对用户来说仍然可见，但它无法获取焦点，用户对它操作没有响应。/A、 启动状态/B、 运行状态/C、 暂停状态/D、 停止状态/C
+在下列选项中, 可以获得Intent中String类型参数的方法是/）A、 getExtraString(string)/B、 getStringExtra(string)/C、 getStringPut(string)/D、 getPutString(string)/B
+Activity通过（）方法可以设置它的布局文件/A、 setContentViews()/B、 setContentView()/C、 setLayoutView()/D、 setLayoutViews()/B
+两个RadioButton要实现单选需要包裹在（）中/A、 RadioGroups/B、 RadioGroup/C、 RatingBar/D、 RatingBars/B
+Activity通过（）方法可以设置它的布局文件,并把视图显示在界面上。/A、 setLayoutView()/B、 setContentView()/C、 setLayoutViews()/D、 setContentViews()/B
